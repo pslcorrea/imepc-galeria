@@ -62,3 +62,20 @@ h3 {
   padding: 1rem;
   border-image: var(--gradient) 1;
 }
+
+@media screen and (max-width: 400px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(1, 1);
+    gap: 10px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cab {
+    width: 100%;
+  }
+}
